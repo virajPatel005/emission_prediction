@@ -113,28 +113,28 @@ if st.button("🔮 Predict Noise Levels", type="primary", use_container_width=Tr
     if day_status == "danger" or night_status == "danger":
         st.markdown("""
         **Severe Health Risks:**
-        - 🧠 Cognitive Impairment
-        - 😫 Stress & Anxiety
-        - ❤️ Cardiovascular Issues
-        - 😴 Sleep Disruption
-        - 👂 Hearing Damage
-        - 👶 Child Development Problems
+        - 🧠 Cognitive Impairment  
+        - 😫 Stress & Anxiety  
+        - ❤️ Cardiovascular Issues  
+        - 😴 Sleep Disruption  
+        - 👂 Hearing Damage  
+        - 👶 Child Development Problems  
         """)
     elif day_status == "warning" or night_status == "warning":
         st.markdown("""
         **Moderate Health Concerns:**
-        - 😟 Increased stress and irritability
-        - 😪 Mild sleep disturbances
-        - 🎯 Reduced focus and productivity
-        - 💢 Headaches and fatigue
-        - 📚 Learning difficulties
+        - 😟 Increased stress and irritability  
+        - 😪 Mild sleep disturbances  
+        - 🎯 Reduced focus and productivity  
+        - 💢 Headaches and fatigue  
+        - 📚 Learning difficulties  
         """)
     else:
         st.markdown("""
         **Low Risk:**
-        - ✅ Minimal health impact
-        - 😊 Safe for living and working
-        - 💤 Good sleep quality
+        - ✅ Minimal health impact  
+        - 😊 Safe for living and working  
+        - 💤 Good sleep quality  
         """)
 
     # Precautions
@@ -142,46 +142,44 @@ if st.button("🔮 Predict Noise Levels", type="primary", use_container_width=Tr
     if day_status == "danger" or night_status == "danger":
         st.markdown("""
         **Immediate Actions:**
-        - 🏠 Soundproof indoor spaces
-        - 👂 Wear ear protection
-        - 🌳 Add vegetation or barriers
-        - 🏥 Monitor health regularly
-        - 📢 Report excessive noise
+        - 🏠 Soundproof indoor spaces  
+        - 👂 Wear ear protection  
+        - 🌳 Add vegetation or barriers  
+        - 🏥 Monitor health regularly  
+        - 📢 Report excessive noise  
         """)
     elif day_status == "warning" or night_status == "warning":
         st.markdown("""
         **Preventive Measures:**
-        - 🪟 Improve window insulation
-        - 🌱 Add plants as sound barriers
-        - 😴 Use earplugs while sleeping
-        - ⏰ Avoid peak noise hours
-        - 🔇 Create quiet zones at home
+        - 🪟 Improve window insulation  
+        - 🌱 Add plants as sound barriers  
+        - 😴 Use earplugs while sleeping  
+        - ⏰ Avoid peak noise hours  
+        - 🔇 Create quiet zones at home  
         """)
     else:
         st.markdown("""
         **Maintenance Tips:**
-        - ✅ Continue monitoring noise levels
-        - 🌳 Maintain green spaces
-        - 🤝 Support community noise awareness
+        - ✅ Continue monitoring noise levels  
+        - 🌳 Maintain green spaces  
+        - 🤝 Support community noise awareness  
         """)
 
     st.markdown("---")
     with st.expander("ℹ️ About Noise Pollution Standards"):
         st.markdown("""
-        **WHO Guidelines:**
-        - Day (6 AM - 10 PM): <55 dB recommended, >70 dB acceptable(ncreases risk of cardiovascular and sleep issues.)
-        - Night (10 PM - 6 AM): <45 dB recommended, 55–60 dB( significantly affects sleep quality.)
+### **WHO Guidelines**
+- **Day (6 AM - 10 PM):** <55 dB recommended  
+- **Night (10 PM - 6 AM):** <45 dB recommended  
 
-  Common Real Worls Noise Level
----------------------------------------------        
+### **Common Real-World Noise Levels**
 | Source                       | Typical dB |
 | ---------------------------- | ---------- |
-| **Breathing / whisper (1m)** | 20–30 dB   |
-| **Quiet room**               | 30 dB      |
-| **Conversation (1m)**        | 55–65 dB   |
-| **Car traffic (10m)**        | 70–85 dB   |
-| **Motorcycle**               | 95 dB      |
-| **Rock concert / nightclub** | 100–110 dB |
-| **Jet taking off (close)**   | 120–140 dB |
-
-
+| Breathing / Whisper (1m)     | 20–30 dB   |
+| Quiet Room                   | 30 dB      |
+| Conversation (1m)            | 55–65 dB   |
+| Car Traffic (10m)            | 70–85 dB   |
+| Motorcycle                   | 95 dB      |
+| Rock Concert / Nightclub     | 100–110 dB |
+| Jet Taking Off (close)       | 120–140 dB |
+""")
