@@ -169,13 +169,19 @@ if st.button("🔮 Predict Noise Levels", type="primary", use_container_width=Tr
     with st.expander("ℹ️ About Noise Pollution Standards"):
         st.markdown("""
         **WHO Guidelines:**
-        - Day (6 AM - 10 PM): <55 dB recommended, <70 dB acceptable
-        - Night (10 PM - 6 AM): <45 dB recommended, <60 dB acceptable
-        
-        **Common Noise Levels:**
-        - 30 dB: Whisper
-        - 60 dB: Normal conversation
-        - 85 dB: Heavy traffic
-        - 100 dB: Nightclub
-        - 120 dB: Jet takeoff
-        """)
+        - Day (6 AM - 10 PM): <55 dB recommended, >70 dB acceptable(ncreases risk of cardiovascular and sleep issues.)
+        - Night (10 PM - 6 AM): <45 dB recommended, 55–60 dB( significantly affects sleep quality.)
+
+  Common Real Worls Noise Level
+---------------------------------------------        
+| Source                       | Typical dB |
+| ---------------------------- | ---------- |
+| **Breathing / whisper (1m)** | 20–30 dB   |
+| **Quiet room**               | 30 dB      |
+| **Conversation (1m)**        | 55–65 dB   |
+| **Car traffic (10m)**        | 70–85 dB   |
+| **Motorcycle**               | 95 dB      |
+| **Rock concert / nightclub** | 100–110 dB |
+| **Jet taking off (close)**   | 120–140 dB |
+
+
