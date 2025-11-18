@@ -263,19 +263,8 @@ st.markdown(footer_html, unsafe_allow_html=True)
 
 
 
-# ============================================
-# 🌍 FUTURE NOISE PREDICTIONS (HTML MAP)
-# ============================================
-st.header("🌍 Future Noise Trends (2025–2035)")
 
-# Load HTML file
-with open("future_noise_prediction_2025_2035.html", "r", encoding="utf-8") as f:
-    html_content = f.read()
 
-# Embed HTML
-st.components.v1.html(html_content, height=800, scrolling=True)
-
-st.markdown("---")
 
 
 
